@@ -1,0 +1,27 @@
+{
+  "name": "YouG8 — Travel Assistant",
+  "short_name": "YouG8",
+  "description": "Multilingual travel assistant with translation, flight tracking, food safety, trip logging, and more.",
+  "start_url": "/youg8-web/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#002147",
+  "theme_color": "#002147",
+  "icons": [
+    {
+      "src": "/youg8-web/assets/images/ug8-icon.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/youg8-web/assets/images/ug8-icon.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": ["travel", "utilities", "productivity"],
+  "lang": "en",
+  "dir": "auto"
+}
