@@ -9,13 +9,14 @@ body {
 }
 /* Force multi-script font on ALL text elements so Arabic, Chinese,
    Japanese, Thai, Urdu, etc. render correctly instead of ??? or boxes.
-   Include system fonts (Segoe UI, Tahoma, Microsoft YaHei, etc.) so text
-   renders even before Google Fonts finish loading. */
-* {
-  font-family: 'Inter', 'Segoe UI', Tahoma, 'Microsoft YaHei', 'Yu Gothic',
-    'Meiryo', 'Leelawadee UI', 'Noto Sans Arabic', 'Noto Nastaliq Urdu',
-    'Noto Sans Thai', 'Noto Sans JP', 'Noto Sans SC',
-    -apple-system, BlinkMacSystemFont, Roboto, Arial, sans-serif !important;
+   Override both the universal selector AND the React Native CSS classes
+   that set font via the 'font' shorthand. */
+html, body, div, span, p, a, button, input, textarea, select, label, h1, h2, h3, h4, h5, h6, li, td, th {
+  font-family: 'Segoe UI', 'Segoe UI Emoji', 'Segoe UI Symbol', Tahoma, Arial,
+    'Microsoft YaHei', 'Yu Gothic UI', 'Meiryo UI', 'Leelawadee UI', 'Nirmala UI',
+    'Noto Sans', 'Noto Sans Arabic', 'Noto Nastaliq Urdu', 'Noto Sans Thai',
+    'Noto Sans JP', 'Noto Sans SC', 'Noto Color Emoji',
+    -apple-system, BlinkMacSystemFont, Roboto, 'Helvetica Neue', sans-serif !important;
 }</style><style id="react-native-stylesheet">[stylesheet-group="0"]{}
 body{margin:0;}
 button::-moz-focus-inner,input::-moz-focus-inner{border:0;padding:0;}
@@ -372,5 +373,5 @@ input::-webkit-search-cancel-button,input::-webkit-search-decoration,input::-web
 @keyframes r-1pzkwqh{0%{transform:translateY(100%);}100%{transform:translateY(0%);}}
 @keyframes r-imtty0{0%{opacity:0;}100%{opacity:1;}}
 @keyframes r-q67da2{0%{transform:translateX(-100%);}100%{transform:translateX(400%);}}
-@keyframes r-t2lo5v{0%{opacity:1;}100%{opacity:0;}}</style><script type="module">globalThis.__EXPO_ROUTER_HYDRATE__=true;</script></head><body><div id="root"><div class="css-g5y9jx r-13awgt0"><!--$--><div class="css-g5y9jx" style="flex:1;background-color:rgba(245,246,250,1.00)"></div><!--/$--></div></div><script src="/youg8-web/_expo/static/js/web/entry-22b68deaac74aef4f0934d83ab63acd4.js" defer></script>
+@keyframes r-t2lo5v{0%{opacity:1;}100%{opacity:0;}}</style><script type="module">globalThis.__EXPO_ROUTER_HYDRATE__=true;</script></head><body><div id="root"><div class="css-g5y9jx r-13awgt0"><!--$--><div class="css-g5y9jx" style="flex:1;background-color:rgba(245,246,250,1.00)"></div><!--/$--></div></div><script src="/youg8-web/_expo/static/js/web/entry-5e8d656b01681d0f5aa08ad2ff70ad1e.js" defer></script>
 </body></html>
